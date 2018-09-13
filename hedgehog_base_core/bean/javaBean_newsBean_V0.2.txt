@@ -1,0 +1,257 @@
+import java.util.List;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.annotate.JsonProperty;
+还不能用
+public class newsBean {
+
+    @JsonProperty("createTime")
+    private int createtime;
+    @JsonProperty("publishDate")
+    private int publishdate;
+    private String title;
+    @JsonProperty("newsId")
+    private String newsid;
+    private String video;
+    private List<Thumbnails> thumbnails;
+    @JsonProperty("authorId")
+    private String authorid;
+    @JsonProperty("authorNickname")
+    private String authornickname;
+    private String introduce;
+    private String url;
+    private List<String> images;
+    private String abstract;
+    @JsonProperty("videoReview")
+    private int videoreview;
+    @JsonProperty("collectionCount")
+    private int collectioncount;
+    @JsonProperty("commentCount")
+    private int commentcount;
+    @JsonProperty("praiseCount")
+    private int praisecount;
+    @JsonProperty("badCount")
+    private int badcount;
+    @JsonProperty("readCount")
+    private int readcount;
+    @JsonProperty("transpondCount")
+    private int transpondcount;
+    private String channel;
+    private List<String> tags;
+    @JsonProperty("mediaType")
+    private int mediatype;
+    @JsonProperty("fromType")
+    private int fromtype;
+    @JsonProperty("nlpTimes")
+    private String nlptimes;
+    @JsonProperty("nlpLocations")
+    private String nlplocations;
+    @JsonProperty("manualNum")
+    private String manualnum;
+    private Etc etc;
+    private String content;
+    @JsonProperty("searchWord")
+    private String searchword;
+    public void setCreatetime(int createtime) {
+         this.createtime = createtime;
+     }
+     public int getCreatetime() {
+         return createtime;
+     }
+
+    public void setPublishdate(int publishdate) {
+         this.publishdate = publishdate;
+     }
+     public int getPublishdate() {
+         return publishdate;
+     }
+
+    public void setTitle(String title) {
+         this.title = title;
+     }
+     public String getTitle() {
+         return title;
+     }
+
+    public void setNewsid(String newsid) {
+         this.newsid = newsid;
+     }
+     public String getNewsid() {
+         return newsid;
+     }
+
+    public void setVideo(String video) {
+         this.video = video;
+     }
+     public String getVideo() {
+         return video;
+     }
+
+    public void setThumbnails(List<Thumbnails> thumbnails) {
+         this.thumbnails = thumbnails;
+     }
+     public List<Thumbnails> getThumbnails() {
+         return thumbnails;
+     }
+
+    public void setAuthorid(String authorid) {
+         this.authorid = authorid;
+     }
+     public String getAuthorid() {
+         return authorid;
+     }
+
+    public void setAuthornickname(String authornickname) {
+         this.authornickname = authornickname;
+     }
+     public String getAuthornickname() {
+         return authornickname;
+     }
+
+    public void setIntroduce(String introduce) {
+         this.introduce = introduce;
+     }
+     public String getIntroduce() {
+         return introduce;
+     }
+
+    public void setUrl(String url) {
+         this.url = url;
+     }
+     public String getUrl() {
+         return url;
+     }
+
+    public void setImages(List<String> images) {
+         this.images = images;
+     }
+     public List<String> getImages() {
+         return images;
+     }
+
+    public void setAbstract(String abstract) {
+         this.abstract = abstract;
+     }
+     public String getAbstract() {
+         return abstract;
+     }
+
+    public void setVideoreview(int videoreview) {
+         this.videoreview = videoreview;
+     }
+     public int getVideoreview() {
+         return videoreview;
+     }
+
+    public void setCollectioncount(int collectioncount) {
+         this.collectioncount = collectioncount;
+     }
+     public int getCollectioncount() {
+         return collectioncount;
+     }
+
+    public void setCommentcount(int commentcount) {
+         this.commentcount = commentcount;
+     }
+     public int getCommentcount() {
+         return commentcount;
+     }
+
+    public void setPraisecount(int praisecount) {
+         this.praisecount = praisecount;
+     }
+     public int getPraisecount() {
+         return praisecount;
+     }
+
+    public void setBadcount(int badcount) {
+         this.badcount = badcount;
+     }
+     public int getBadcount() {
+         return badcount;
+     }
+
+    public void setReadcount(int readcount) {
+         this.readcount = readcount;
+     }
+     public int getReadcount() {
+         return readcount;
+     }
+
+    public void setTranspondcount(int transpondcount) {
+         this.transpondcount = transpondcount;
+     }
+     public int getTranspondcount() {
+         return transpondcount;
+     }
+
+    public void setChannel(String channel) {
+         this.channel = channel;
+     }
+     public String getChannel() {
+         return channel;
+     }
+
+    public void setTags(List<String> tags) {
+         this.tags = tags;
+     }
+     public List<String> getTags() {
+         return tags;
+     }
+
+    public void setMediatype(int mediatype) {
+         this.mediatype = mediatype;
+     }
+     public int getMediatype() {
+         return mediatype;
+     }
+
+    public void setFromtype(int fromtype) {
+         this.fromtype = fromtype;
+     }
+     public int getFromtype() {
+         return fromtype;
+     }
+
+    public void setNlptimes(String nlptimes) {
+         this.nlptimes = nlptimes;
+     }
+     public String getNlptimes() {
+         return nlptimes;
+     }
+
+    public void setNlplocations(String nlplocations) {
+         this.nlplocations = nlplocations;
+     }
+     public String getNlplocations() {
+         return nlplocations;
+     }
+
+    public void setManualnum(String manualnum) {
+         this.manualnum = manualnum;
+     }
+     public String getManualnum() {
+         return manualnum;
+     }
+
+    public void setEtc(Etc etc) {
+         this.etc = etc;
+     }
+     public Etc getEtc() {
+         return etc;
+     }
+
+    public void setContent(String content) {
+         this.content = content;
+     }
+     public String getContent() {
+         return content;
+     }
+
+    public void setSearchword(String searchword) {
+         this.searchword = searchword;
+     }
+     public String getSearchword() {
+         return searchword;
+     }
+
+}
